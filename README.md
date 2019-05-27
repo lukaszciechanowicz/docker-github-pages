@@ -1,7 +1,7 @@
 # docker-github-pages
 My Alpine based Docker image for [GitHub Pages](https://pages.github.com/) with [Jekyll](https://jekyllrb.com/).
 
-![Demo using Jekyll and GitHub Page on Docker](https://raw.githubusercontent.com/lukaszciechanowicz/docker-github-pages/master/examples/example01.gif)
+![Demo using Jekyll and GitHub Page on Docker](examples/example01.gif?raw=true "example01")
 
 ## What is this all about?
 
