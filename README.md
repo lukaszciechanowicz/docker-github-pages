@@ -3,11 +3,11 @@ My Alpine based Docker image for [GitHub Pages](https://pages.github.com/) with 
 
 ## What is this all about?
 
-It's the Docker image I use to run locally my GitHub Pages based [personal blog](http://lukaszciechanowicz.me/) while I'm developing it.
-It refreshes changes automatically as I make them and let me test various plugins and settings.
+It's a Docker image that I use to run locally my GitHub Pages based [personal blog](http://lukaszciechanowicz.me/) while I'm developing it.
+It refreshes changes automatically as I make them and let me review the site, help troubleshoot failed Jekyll builds and test various plugins and settings.
 
 It's just as simple as that:
 
 ```
-$ docker run -t --rm -v "$PWD":/usr/src/app -p "3000:3000" lukaszciechanowicz/github-pages
+$ docker run -t --rm -v "$PWD":/usr/src/app -p "4000:4000" lukaszciechanowicz/github-pages
 ```
